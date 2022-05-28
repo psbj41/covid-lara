@@ -27,6 +27,7 @@
                         </li>
                         <li><a href="{{route('prevention')}}">Prevention</a></li>
                         <li><a href="{{route('prediction')}}">Prediction</a></li>
+                        <li><a href="{{route('data')}}">Data</a></li>
                         <li><a href="{{route('faq')}}">FAQS</a></li>
                         <li><a href="{{route('doctor')}}">Doctors</a></li>
                         <li class="dropdown submenu">

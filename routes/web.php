@@ -49,6 +49,10 @@ Route::get('/blood-donation', function () {
     return view('frontend.pages.blood');
 })->name('blood');
 
+Route::get('/data', function () {
+    return view('file');
+})->name('data');
+
 Route::post('blood-donation',[BloodController::class,'store2'])->name('blood.store2');
 
 Route::get('/dashboard', function () {
